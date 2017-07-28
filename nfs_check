@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# This nfs_check is specific to WalT image, since 
+# the (hidden) overlay is used,
+# hence we return 1 to indicate,
+# that we know where to look for nfs
+exit 1
+
